@@ -6,7 +6,6 @@ import './HeroHome.css';
 function HeroHome() {
   return (
     <div className='hero-container'>
-      <image src='images/90%'.webp>
       <h1>Dr Suresh Khirwadkar</h1>
       <p>Providing high quality General Practice, Skin Cancer and GP Psychology Services</p>
       <div className='hero-btns'>
