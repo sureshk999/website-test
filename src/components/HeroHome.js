@@ -6,7 +6,7 @@ import './HeroHome.css';
 function HeroHome() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
+      <image src=/90%.webp>
       <h1>Dr Suresh Khirwadkar</h1>
       <p>Providing high quality General Practice, Skin Cancer and GP Psychology Services</p>
       <div className='hero-btns'>
