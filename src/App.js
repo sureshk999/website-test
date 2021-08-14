@@ -23,6 +23,7 @@ import NavBar from './components/NavBar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import '@fontsource/roboto';
 import Footer from './components/Footer'
+import HeroImage from "./assets/images/img-1.webp"
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -78,7 +79,7 @@ const useStyles = makeStyles((theme) => ({
     }
   },
   hero: {
-    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1558981852-426c6c22a060?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80')`,
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('${HeroImage}')`,
     height: "500px",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
